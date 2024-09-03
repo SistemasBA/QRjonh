@@ -1,56 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi QR</title>
+    <title>Religious Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
-<body style="background-image: url('https://r4.wallpaperflare.com/wallpaper/580/368/885/jesus-christ-holy-bible-holy-rosary-christianity-wallpaper-79e068ed816acd0b669718efd011e6dd.jpg'); background-repeat: no-repeat;">
-    <div class="container" style="width: 1000px; margin-top: 15%;">          
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" style="text-decoration: wavy; 
-          color: aliceblue; font-size: 45px; text-align: center; font-weight: bold;">
-                <p>
-                    <ol>
-                        Levantate y defiendeme,
-                    </ol>
-                    <ol>
-                        librame de la trampa que me tienden,
-                    </ol> 
-                    <ol>
-                        en ti confio padre, en ti me refugio padre. 
-                    </ol>
-                    <ol>
-                        Tu que todo lo puedes aparta de mi si es posible esta copa
-                    </ol>
-                    <ol>
-                        pero hagase tu voluntad y no la mia. 
-                    </ol>
-                </p>
-          </div>
-          <div class="carousel-item" style="text-decoration: wavy; 
-          color: aliceblue; font-size: 45px; text-align: center; font-weight: bold;">
-            <p>
-                <ol>
-                    The dark night of the soul.
-                </ol>
-                <ol>
-                    Will soon arrive.
-                </ol>
-            </p>
-          </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+<body>
+    <div class="container-fluid">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption align-items-center justify-content-center" style="top: 250px;">
+                        <p>
+                            Levántate y defiéndeme,<br>
+                            líbrame de la trampa que me tienden,<br>
+                            en ti confío padre, en ti me refugio padre.<br>
+                            Tú que todo lo puedes, aparta de mí si es posible esta copa<br>
+                            pero hágase tu voluntad y no la mía.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <p>
+                            The dark night of the soul.<br>
+                            Will soon arrive.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
 </body>
 </html>
