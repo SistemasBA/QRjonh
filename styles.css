@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/580/368/885/jesus-christ-holy-bible-holy-rosary-christianity-wallpaper-79e068ed816acd0b669718efd011e6dd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    /* margin-top: 15%;
+    width: 1000px; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+.carousel-inner {
+    height: 80vh;
+}
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption p {
+        font-size: 1.2rem;
+    }
+}
